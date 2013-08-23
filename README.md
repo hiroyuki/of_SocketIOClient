@@ -1,8 +1,6 @@
 #ofxSokectIOClient
 
-**openframeworks** addon of **socketIO** client
-
-worked at **OSX 10.8**
+**openframeworks** addon of **socketIO** client worked at **OSX 10.8**
 
 using [Sokect.IO Client++](https://github.com/ebshimizu/socket.io-clientpp),  [websocket++](https://github.com/zaphoyd/websocketpp) ,and [rapidjson](http://code.google.com/p/rapidjson/).
 
@@ -18,3 +16,4 @@ This library is able to connect to a [Socket.IO](https://github.com/LearnBoost/s
 ##how to run example
 1. install [socketIO](http://socket.io/#how-to-use)
 2. run test.js ( : example/test.js ) from terminal.
+3. build and run example
