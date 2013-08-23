@@ -2,7 +2,8 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-
+    socketIoClient.setup();
+    socketIoClient.connect("ws://localhost:8080/");
 }
 
 //--------------------------------------------------------------
@@ -17,6 +18,12 @@ void testApp::draw(){
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
+    switch ( key )
+    {
+        case 'c':
+            socketIoClient.disconnect();
+            break;
+    }
 
 }
 
