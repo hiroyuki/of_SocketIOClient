@@ -6,7 +6,7 @@ using [Sokect.IO Client++](https://github.com/ebshimizu/socket.io-clientpp),  [w
 
 This library is able to connect to a [Socket.IO](https://github.com/LearnBoost/socket.io) server, and then send and receive messages.
 
-##about install into existing project
+##about installing into existing project
 
 * drag "lib" and "src" folder into Project Navigator in Xcode
 * header search path
