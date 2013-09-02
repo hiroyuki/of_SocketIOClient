@@ -1,6 +1,6 @@
 #ofxSokectIOClient
 
-**openframeworks** addon of **socketIO** client worked at **OSX 10.8**
+**openFrameworks** addon of **socketIO** client worked at **OSX 10.8**
 
 using [Sokect.IO Client++](https://github.com/ebshimizu/socket.io-clientpp),  [websocket++](https://github.com/zaphoyd/websocketpp) ,and [rapidjson](http://code.google.com/p/rapidjson/).
 
